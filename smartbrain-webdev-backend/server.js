@@ -62,8 +62,8 @@ app.use(cors());
 
 
 app.get('/', (req,res) => {
-	// res.send('this is working');
-	res.send(database.users);
+	res.send('this is working');
+	// res.send(database.users);
 })
 
 
